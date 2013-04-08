@@ -24,13 +24,13 @@ Methods
 <dl>
   <dt>NSArray+Protected</dt>
 </dl>
-	- (id) objectAtIndexProtected:(NSUInteger)index;`
+	- (id) objectAtIndexProtected:(NSUInteger)index;
 
 <dl>
   <dt>NSObject+PerformProtected</dt>
 </dl>
-	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;`
-	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;`
+	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
+	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
 	- (void) performProtectedSelector:(SEL)aSelector;
 
 <dl>
@@ -41,4 +41,4 @@ Methods
 <dl>
   <dt>NSMutableDictionary+Protected</dt>
 </dl>
-	- (void)setObjectProtected:(id)anObject forKey:(id <NSCopying>)aKey;`
+	- (void)setObjectProtected:(id)anObject forKey:(id <NSCopying>)aKey;
