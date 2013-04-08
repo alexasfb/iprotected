@@ -23,9 +23,9 @@ Methods
 
 <dl>
   <dt>NSArray+Protected</dt>
-
-	- (id) objectAtIndexProtected:(NSUInteger)index;`
 </dl>
+- (id) objectAtIndexProtected:(NSUInteger)index;`
+
 NSObject+PerformProtected
 	- void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
 	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
