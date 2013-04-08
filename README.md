@@ -26,7 +26,9 @@ Methods
 </dl>
 	- (id) objectAtIndexProtected:(NSUInteger)index;`
 
-NSObject+PerformProtected
-	- void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
-	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
-	- (void) performProtectedSelector:(SEL)aSelector;
+<dl>
+  <dt>NSObject+PerformProtected</dt>
+</dl>
+	- void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;`
+	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;`
+	- (void) performProtectedSelector:(SEL)aSelector;`
