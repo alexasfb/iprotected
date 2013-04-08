@@ -29,6 +29,16 @@ Methods
 <dl>
   <dt>NSObject+PerformProtected</dt>
 </dl>
-	- void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;`
+	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;`
 	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;`
-	- (void) performProtectedSelector:(SEL)aSelector;`
+	- (void) performProtectedSelector:(SEL)aSelector;
+
+<dl>
+  <dt>NSDictionary+Protected</dt>
+</dl>
+	- (id) objectForKeyProtected:(id)aKey;
+
+<dl>
+  <dt>NSMutableDictionary+Protected</dt>
+</dl>
+	- (void)setObjectProtected:(id)anObject forKey:(id <NSCopying>)aKey;`
