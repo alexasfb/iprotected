@@ -23,5 +23,4 @@ Categories
 
 * NSArray+Protected
 	- (id) objectAtIndexProtected:(NSUInteger)index;
-	- (id) objectForKeyProtected:(id)aKey;
-	- (id) objectForKey:(id)aKey;
+Replacement for - (id) objectAtIndex:(NSUInteger)index;
