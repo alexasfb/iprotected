@@ -22,9 +22,9 @@ Categories
 --------------
 
 * NSArray+Protected
-    (id) objectAtIndexProtected:(NSUInteger)index;   
+    * (id) objectAtIndexProtected:(NSUInteger)index;   
 
-*NSObject+PerformProtected
-    (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
-	(void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
-	(void) performProtectedSelector:(SEL)aSelector;
+* NSObject+PerformProtected
+    * (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
+	* (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
+	* (void) performProtectedSelector:(SEL)aSelector;
