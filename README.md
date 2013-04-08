@@ -21,12 +21,10 @@ To use iProtected, just drag and drop the categories inside your Objective-C pro
 Categories
 --------------
 
-* NSArray+Protected
-	- (id) objectAtIndexProtected:(NSUInteger)index;   
+- NSArray+Protected
+	* (id) objectAtIndexProtected:(NSUInteger)index;   
 
-* NSObject+PerformProtected
-	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
-	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
-	- (void) performProtectedSelector:(SEL)aSelector;
-
-* 
+- NSObject+PerformProtected
+	* (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
+	* (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject;
+	* (void) performProtectedSelector:(SEL)aSelector;
