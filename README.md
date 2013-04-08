@@ -22,7 +22,9 @@ Categories
 --------------
 
 * <b>NSArray+Protected
-	- (id) objectAtIndexProtected:(NSUInteger)index;   <b>Replacement for -(id) objectAtIndex:(NSUInteger)index;</b>
+	- - (id) objectAtIndexProtected:(NSUInteger)index;   
+	- <b>Replacement for -(id) objectAtIndex:(NSUInteger)index;</b>
+
 
 * <b>NSObject+PerformProtected
 	- (void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
