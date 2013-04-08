@@ -22,7 +22,8 @@ Methods
 --------------
 
 NSArray+Protected
-	`- (id) objectAtIndexProtected:(NSUInteger)index;`  
+
+	`- (id) objectAtIndexProtected:(NSUInteger)index;  
 
 NSObject+PerformProtected
 	- void) performProtectedSelector:(SEL)aSelector withObject:(id)anObject withObject:(id)anotherObject;
