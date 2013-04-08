@@ -18,7 +18,7 @@ Installation and Usage
 To use iProtected, just drag and drop the categories inside your Objective-C projects. Then, replace all common used methods by its protected version.
 
 
-Categories
+Methods
 --------------
 
 NSArray+Protected
