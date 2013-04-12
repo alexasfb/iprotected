@@ -13,4 +13,5 @@
 - (id) objectForKeyProtected:(id)aKey;
 - (id)objectAtIndex:(NSUInteger)index;
 - (id) objectAtIndexProtected:(NSUInteger)index;
+
 @end
